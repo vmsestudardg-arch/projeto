@@ -1,0 +1,15 @@
+# Projeto POO - Sistema de Pedidos
+
+Este é um projeto simples em **Java** que aplica os conceitos de Programação Orientada a Objetos (POO).
+
+## Conceitos aplicados
+- **Abstração**: classes Cliente, Produto e Pedido representam elementos do mundo real.
+- **Encapsulamento**: atributos privados com getters e setters.
+- **Herança**: a classe ProdutoDigital herda de Produto.
+- **Polimorfismo**: método `calcularPrecoFinal()` redefinido em ProdutoDigital.
+
+## Como executar
+1. Compile os arquivos com `javac *.java`
+2. Rode com `java Main`
+
+O programa simula um cliente realizando um pedido com produtos físicos e digitais, exibindo o resumo final com o valor total.
